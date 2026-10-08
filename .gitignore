@@ -1,0 +1,18 @@
+# Local farm configuration - never commit
+config/*
+!config/.gitkeep
+
+# Reports and logs
+*.log
+*.csv
+*.xlsx
+*.reg
+logs/
+reports/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
